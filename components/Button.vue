@@ -14,7 +14,7 @@ export default {
   props: {
     color: {
       type: String,
-      default: "#8E44AD",
+      default: "primary",
     },
     disabled: {
       type: Boolean,

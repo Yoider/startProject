@@ -1,5 +1,10 @@
 <template>
-  <v-form v-model="isFormValid" ref="form" @submit.prevent="sendForm">
+  <v-form
+    v-model="isFormValid"
+    ref="form"
+    @submit.prevent="sendForm"
+    class="text-center"
+  >
     <Input label="Correo" :model.sync="email.model" :rules="email.rules" />
     <Input
       label="Contraseña"
