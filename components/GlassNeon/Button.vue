@@ -22,7 +22,7 @@ export default {
   },
   mounted() {
     const testBtn = this.$refs.testBtn;
-    testBtn.style = `--test: ${this.clr};`;
+    testBtn.style = `--clr: ${this.clr};`;
   },
 };
 </script>
@@ -55,7 +55,7 @@ export default {
   overflow: hidden;
   transition: 0.5s;
   backdrop-filter: blur(15px);
-  text-shadow: 0 0 4px black;
+  text-shadow: 0px 0px 3px black;
 }
 .container .btn:hover a {
   letter-spacing: 3px;
@@ -83,11 +83,11 @@ export default {
   bottom: -5px;
   width: 30px;
   height: 10px;
-  background: var(--test);
+  background: var(--clr);
   border-radius: 10px;
   transition: 0.5s;
-  box-shadow: 0 0 3px var(--test), 0 0 8px var(--test), 0 0 16px var(--test),
-    0 0 32px var(--test);
+  box-shadow: 0 0 3px var(--clr), 0 0 8px var(--clr), 0 0 16px var(--clr),
+    0 0 32px var(--clr);
 }
 .container .btn:hover::before {
   bottom: 0;
@@ -105,11 +105,11 @@ export default {
   top: -5px;
   width: 30px;
   height: 10px;
-  background: var(--test);
+  background: var(--clr);
   border-radius: 10px;
   transition: 0.5s;
-  box-shadow: 0 0 3px var(--test), 0 0 8px var(--test), 0 0 16px var(--test),
-    0 0 32px var(--test);
+  box-shadow: 0 0 3px var(--clr), 0 0 8px var(--clr), 0 0 16px var(--clr),
+    0 0 32px var(--clr);
 }
 .container .btn:hover::after {
   top: 0;

@@ -12,7 +12,8 @@
       :rules="password.rules"
       :type="password.type"
     />
-    <Button :disabled="!isFormValid" label="Ingresar" type="submit" />
+    <GlassNeonButton label="Ingresar" />
+    <!-- <Button :disabled="!isFormValid" label="Ingresar" type="submit" /> -->
   </v-form>
 </template>
 

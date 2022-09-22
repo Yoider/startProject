@@ -1,8 +1,10 @@
 <template>
-  <v-app>
+  <v-app style="background: #1d1224">
     <v-main>
       <v-row class="fill-height ma-0">
-        <v-col class="primary d-flex justify-center align-center"
+        <v-col
+          style="background: #322a3c"
+          class="d-flex justify-center align-center"
           ><Picture :src="img" max-height="500" max-width="500"
         /></v-col>
         <v-col class="d-flex justify-center align-center" cols="5"

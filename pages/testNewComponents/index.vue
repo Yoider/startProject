@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <ReusableComponentsBtnGlassNeon clr="#00FF27" />
+    <GlassNeonButton />
   </v-container>
 </template>
 
